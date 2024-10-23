@@ -1,0 +1,36 @@
+h1{
+    font-family:Brush Script MT ;
+    font-size: 36px;
+    color:crimson;
+    text-align:center;
+}
+
+h4{
+    text-align:center;
+    color:black;
+    background-color: rgb(173, 173, 155);
+}
+
+*{
+    text-align:center;
+}
+#sdm{
+    width: 700px;
+    border: 1px solid black;
+    margin:0 auto;
+    background-color: #f9f9f9 ;
+    border-radius: 5px;
+}
+strong{
+    font-family:'Copperplate Gothic Bold';
+    font-size:16px;
+
+}
+#srm{
+    text-align:center;
+    
+}
+ol{
+    list-style-type:" ";
+}
+//font family color palate
