@@ -1,0 +1,39 @@
+*{
+ 
+    text-align: center;
+}
+
+body{
+    background-image: url(login.jpg);
+    background-position: center;
+    background-size:2000px;
+    background-repeat:no-repeat;
+
+    
+}
+#cmn{
+   
+    width: 500px;
+    height:600px;
+    border: 3px solid rgb(92, 11, 11);
+    margin: 200px auto;
+    background:linear-gradient(#0AFFFF,#CCFFFF) ;
+    border-radius: 5px;
+    padding: 20px;
+}
+input{
+padding:15px;
+}
+p{
+    font-size:30px;
+}
+
+strong{
+    font-size: 30px;
+}
+
+
+button{
+    padding:20px;
+    border-radius: 50px;
+}

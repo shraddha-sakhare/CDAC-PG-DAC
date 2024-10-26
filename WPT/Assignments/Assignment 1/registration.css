@@ -1,0 +1,25 @@
+*{
+    text-align:center;
+    font-size: 18px;
+}
+#cmn{
+    width: 700px;
+    height:700px;
+padding-top:10px;
+    border: 3px solid black;
+    margin:0 auto;
+    background-color: #f3bcbc ;
+    border-radius: 5px;
+}
+#3blk input{
+    padding: 20px;
+    width: 70px;
+    height: 900px;
+    text-align:right;
+    margin:25px;
+}
+#bb input{
+    padding:18px;
+    border-radius:20px;
+    
+}
