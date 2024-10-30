@@ -1,0 +1,53 @@
+.cmn{
+    border: 3px solid #e40c0c;
+width: 500px;
+margin:0 auto;
+padding-top: 5%;
+padding-bottom: 5%;
+}
+.lab{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0e0d0d;
+}
+
+.inp{
+    font-size: 25px;
+    font-weight: 400;
+    color: #0e0d0d;
+    margin-bottom: 10px;
+}
+h2{
+    text-align: center;
+}
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+label {
+    display: block;
+}
+input[type="text"], input[type="tel"], input[type="email"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-weight: 1000px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+button {
+    background-color: #0f0227;
+    color: white;
+    padding: 20px 20px;
+    margin: 8px 0;
+    border: 200px;
+    cursor: pointer;
+    height:30%;
+    width: 100%;
+}
+#output {
+    margin-top: 10px;
+    font-weight: 500px;
+
+}

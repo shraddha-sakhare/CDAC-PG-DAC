@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="" href="que4.css">
+
+</head>
+<body>
+    <script>
+        function highlightBold() {
+            const boldWords = document.querySelectorAll("p b");
+            boldWords.forEach(word => word.classList.add("highlight"));
+        }
+
+        function removeHighlight() {
+            
+            const boldWords = document.querySelectorAll("p b");
+           
+            boldWords.forEach(word => word.classList.remove("highlight"));
+        }
+    </script>
+    <div class="high">
+        <p><a style="text-decoration: none;" href="#" onmouseover="highlightBold()" onmouseout="removeHighlight()">On mouse over here bold words of the following paragraph will be highlighted. </a></p>
+        <p >We have just started this section for the <b class="high">users</b> (<b class="high">beginner</b> to <b class="high">intermediate</b>) who want to work with various <b class="high">JavaScript problems</b> and write scripts online to test their <b class="high">JavaScript skill</b>.</p>
+    </div>
+</body>
+</html>

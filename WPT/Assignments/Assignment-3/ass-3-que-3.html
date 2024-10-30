@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Item from Dropdown</title>
+    <link rel="stylesheet" type="" href="que3.css">
+
+</head>
+<body>
+<div class="removeopt">
+    <select id="dd">
+        <option class="opt" value="DAC">DAC</option>
+        <option class="opt" value="DBDA">DBDA</option>
+        <option class="opt" value="DRAT">DRAT</option>
+        <option class="opt" value="DIOT">DIOT</option>
+        <option class="opt" value="DAI">DAI</option>
+        <option  class="opt" value="DITISS">DITISS</option>
+        <option class="opt" value="DESD">DESD</option>
+    </select>
+    <br>
+    <button class="remove" onclick="removecourse()">Remove Course</button>
+    <script>
+        function removecourse() {
+            const dropdown = document.getElementById("dd");
+            dd.remove(dd.selectedIndex);
+        }
+
+    </script>
+</div>
+</body>
+</html>
